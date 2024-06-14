@@ -25,10 +25,10 @@
     $db = $values['/example/database'];
   }
   catch (Exception $e) {
-    $ep = '';
-    $db = '';
-    $un = '';
-    $pw = '';
+    $ep = 'database-1.crstykuuvbxi.us-east-1.rds.amazonaws.com';
+    $db = 'database-1';
+    $un = 'admin';
+    $pw = 'admin123';
   }
 
 ?>
